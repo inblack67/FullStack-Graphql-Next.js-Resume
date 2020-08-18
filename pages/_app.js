@@ -1,11 +1,9 @@
-import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client'
+import { ApolloProvider } from '@apollo/client'
+import { useApollo } from '../utils/apollo';
 
 function MyApp({ Component, pageProps }) {
 
-  const client = new ApolloClient({
-    uri: '/api/graphql',
-    cache: new InMemoryCache()
-  })
+  const client = useApollo();
 
   return <ApolloProvider client={client}>
     <Component {...pageProps} />
