@@ -4,7 +4,7 @@ export const data = {
     tagline: "Full-Stack JavaScript Developer",
     email: "devproddeploy@gmail.com",
     github: "https://github.com/inblack67",
-    website: "https://inblack67.netlify.app",
+    website: "https://inblack67.vercel.app",
     linkedin: "https://linkedin.com/in/inblack67",
     objective: "To code JavaScript until there's nothing left to learn.",
   },
